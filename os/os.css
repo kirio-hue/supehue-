@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+}
+
+.cont{
+    font-size: 1.5em;
+
+}
+.ainer{
+    font-size: 1.2em;
+}
+#submit{
+    padding:15px 15px;
+    background-color: rgb(10, 61, 229);
+    border:none;
+    border-radius: 15px;
+    font-size: 1.1em;
+}
+#submit:hover{
+    background-color: rgb(14, 105, 210);
+    box-shadow: 3px 3px 3px black,-3px -3px 3px black;
+    transition: 0.25s;
+    color:white;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(48, 82, 82);
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.navbar a:hover{background-color: rgb(53, 183, 157);
+    padding: 15px;
+    margin: 0;
+    border: 0;
+    border-radius: 15px;
+
+}
+.navbar a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    color:azure;
+display: block;
+text-align: center;
+    
+    padding: 12px;
+}
+.navbar li{
+    float: left;
+}
